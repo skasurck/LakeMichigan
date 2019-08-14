@@ -1,0 +1,785 @@
+/*
+
+Theme Name: Lake Michigan
+
+Author: Irving GabrielRangel Paredes
+
+Author URI: https://www.Mktska.com.mx
+
+Description: Pagina de blancos lake Michigan
+
+Version: 0.1
+
+License: copyright
+
+Text Domain: Lake Michigan
+
+*/
+
+/*estilos generales*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: transparent;
+    text-decoration: none;
+}
+
+/*centrar-imagenes Horisontalmente*/
+.center-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+/*------------header-------------------*/
+.header-lake {
+    width: 100%;    
+    height: 70px;
+    box-shadow: 0px 4px 7px rgb(122, 122, 122);
+}
+
+.img-logo-header {
+    width: auto;
+    height: 70px;
+}
+
+/* dispositivos extra pequeños (parados Telefonos, maximo 576px)*/
+@media (max-width: 575.98px) {
+    .header-lake {
+        height: 70px;
+    }
+}
+
+/* dispositivos pequeños (Telefonos acostados, minimo 576px maximo 768)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header-lake {
+        height: 70px;
+    }
+}
+
+/*  Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header-lake {
+        height: 100px;
+    }
+}
+
+/*  Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header-lake {
+        height: 100px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .header-lake {
+        height: 100px;
+    }
+}
+
+/*navbar*/
+nav.navbar {
+    padding-left: 150px;
+    padding-right: 150px;
+    z-index: 999;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: #707070 !important;
+    z-index: 1001;
+}
+
+.nav-link a {
+    font-size: 20px;
+    color: #707070 !important;
+    z-index: 1001;
+}
+
+.link-activo {
+    color: #fff !important;
+    background-color: #24225E;
+    z-index: 1001;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+    background-color: #24225E;
+    border-radius: 8%;
+    z-index: 1001;
+}
+
+.nav-link a:hover {
+    color: #fff !important;
+    background-color: #24225E;
+    z-index: 1001;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(36, 34, 94, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler {
+    border-color: rgb(36, 34, 94) !important;
+}
+
+.navbar-nav {
+    background-color: #ffff;
+    z-index: 1000;
+    width: 100%;
+    border-radius: 5%;
+}
+
+/* dispositivos extra pequeños (parados Telefonos, maximo 576px)*/
+@media (max-width: 575.98px) {
+    nav.navbar {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .img-logo-header {
+        margin-top: -12%;
+        width: auto;
+        height: 70px;
+    }
+
+    .navbar-brand {
+        display: inline !important;
+    }
+
+}
+
+/* dispositivos pequeños (Telefonos acostados, minimo 576px maximo 768)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    nav.navbar {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .img-logo-header {
+        margin-top: -12%;
+        width: auto;
+        height: 70px;
+    }
+}
+
+/*slider*/
+.img-principal {
+    margin-top: 1%;
+    z-index: 999;
+}
+.img-small{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#slider-home {
+    margin-bottom: 50px;
+}
+
+.carousel-caption {
+    background-color: rgba(112, 112, 112, 0.75);
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 30px 45px;
+    text-align: center;
+    width: 340px;
+    margin-top: 30%;
+}
+
+.carousel-caption p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.carousel-caption h2 {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.carousel-caption .h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 8px;
+}
+
+.carousel-caption img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.carousel-caption a {
+    border-radius: 0;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .img-small{
+        border-radius: 10%;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media screen and (min-width: 575.99px) and (max-width: 767.98px){
+    .img-small{
+        border-radius: 10%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media screen and (min-width: 767.99px) and (max-width: 991.98px){
+    .img-small{
+        display: none !important;
+    }
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media screen and (min-width: 991.99px) and (max-width: 1199.98px){
+    .img-small{
+        display: none !important;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .img-small{
+        display: none !important;
+    }
+}
+
+/*Quienes somos pag Principal*/
+.contenedor-quienes-principal {
+    margin-top: 5%
+}
+
+.titulo-quien-princ {
+    font-size: 27px;
+    color: #24225E;
+}
+
+.titulo-quienes-principal {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 28px;
+    color: #24225E;
+}
+
+.texto-quienes-principal p {
+    font-size: 15px;
+    color: #24225E;
+}
+
+/*Productos pag principal*/
+.contenedor-productos-principal {
+    margin-top: 5%;
+}
+
+.Titulo-productos {
+    font-size: 32px;
+    color: #24225E;
+    text-align: center;
+}
+
+.texto-productos {
+    padding-right: 0%;
+}
+
+/*Certificaciones pag Principal*/
+.contenedor-cerificaciones-pagPrincipal {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.titulo-cerificaciones-PagPrincipal {
+    font-size: 53px;
+    color: #24225E;
+    text-align: center
+}
+
+.img-productos {
+    width: 100%;
+    height: auto;
+}
+
+.sub-titulos-productos {
+    font-size: 26px;
+    color: #24225E;
+    text-align: left;
+}
+
+.parrafo-productos-pagPrincipal {
+    color: #24225E;
+    font-size: 18px;
+}
+
+.parrafo-bold-productos-pagPrincipal {
+    font-size: 18px;
+    color: #24225E;
+    font-weight: bold;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .titulo-cerificaciones-PagPrincipal {
+        font-size: 30px;
+        color: #24225E;
+        text-align: center
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {}
+
+
+/*Asesoria pag principal*/
+.contenedor-Asesoria-pagPrincipal {
+    height: 150px;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-Morado {
+    background-color: #24225E !important;
+    color: #fff;
+    box-shadow: 0px 4px 7px rgb(0, 0, 0);
+    font-size: 1.25rem !important;
+}
+
+.btn-Morado:hover {
+    color: #fff !important
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .btn-Morado {
+        font-size: 0.90rem !important;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {}
+
+/*Contacto Pagina principal*/
+.contenedor-contacto-pagPrincipal {
+    margin-top: 5%;
+}
+
+.titulo-contacto-pagPrincipal {
+    font-size: 28px;
+    color: #24225E;
+    text-align: center;
+}
+
+.text-contacto-pagPrincipal {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.label-contacto-pag-Principal {
+    font-size: 25px;
+    color: #24225E;
+}
+
+/*Footer*/
+.contenedor-footer {
+    margin-top: 5%;
+    border-top: 5px solid;
+    border-top-color: #24225E;
+}
+
+footer h3 {
+    margin-top: 2%;
+    font-size: 18px;
+    color: #24225E;
+}
+
+footer li {
+    color: #24225E;
+    font-size: 14px;
+}
+
+/*pagina Nosotros*/
+/*Seccion1*/
+
+.titulo-blanco-pagNosotros {
+    margin-top: 0px !important;
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff
+}
+.titulo-morado-pagNosotros {
+    margin-top: 0px !important;
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    color: #24225E
+}
+.texto-Blanco-pagNosotros {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+}
+.texto-morado-pagNosotros {
+    font-size: 20px;
+    text-align: center;
+    color: #24225E;
+    font-weight: normal;
+}
+.seccion-1-pagNosotros {
+    width: 100%;
+    height: auto;
+    margin: 3% 0 3% 0;
+}
+.seccion-3-pagNosotros {
+    width: 100%;
+    height: auto;
+    margin: 3% 0 3% 0;
+}
+.seccion-3-pagNosotros .row{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+   }
+.seccion-2-pagNosotros {
+    width: 100%;
+    height: auto;
+    background: #24225E;
+    margin: 3% 0 3% 0;
+}
+.seccion-2-pagNosotros .row{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+}
+.seccion-4-pagNosotros{
+    width: 100%;
+    height: auto;
+    background: #24225E;
+    margin: 3% 0 3% 0;
+}
+.seccion-4-pagNosotros .row{
+ margin-left: 0% !important;
+ margin-right: 0% !important;
+}
+.imagenes-secciones-pagNosotros {
+        width: 100%;
+        height: auto;    
+}
+
+.seccion-video-pagNosotros {
+    border-top: 5px solid #24225E;
+}
+
+.contenedor-video-pagNosotros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+/* dispositivos extra pequeños (parados Telefonos, maximo 576px)*/
+@media (max-width: 575.98px) {        
+    .texto-Blanco-pagNosotros {
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+        font-weight: normal;
+    }
+    .texto-morado-pagNosotros {
+        font-size: 15px;
+        text-align: center;
+        color: #24225E;
+        font-weight: normal;
+    }
+    .titulo-blanco-pagNosotros { 
+        font-size: 36px;  
+    }
+    .titulo-morado-pagNosotros {  
+        font-size: 36px;
+    }
+}
+
+/* dispositivos pequeños (Telefonos acostados, minimo 576px maximo 768)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+/*  Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+/*  Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}
+/*Productos*/
+.barras {
+    margin-top: 0.5%;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-seleccion-pagProductos {
+    margin-top: 5%;
+    width: 100%;
+    height: 1000px;
+}
+
+.contenedor-card-productos {
+    margin-top: 5%;
+}
+
+.text-col-seleccion-Productos {
+    margin-top: 5%
+}
+
+.text-col-seleccion-Productos p {
+    color: #24225E;
+    font-size: 18px;
+}
+
+.titulo-seleccion-pagProductos {
+    font-size: 22px;
+    font-weight: bold;
+    color: #24225E;
+}
+
+.selectpres-pag-productos a {
+    color: #24225E;
+    font-size: 18px;
+}
+
+.active-link {
+    background: #24225E;
+    color: #fff !important;
+}
+
+.active-link:hover {
+    background: #24225E;
+    color: #fff !important;
+}
+
+.card-title {
+    font-size: 22px;
+    color: #24225E;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #24225E;
+}
+/* dispositivos extra pequeños (parados Telefonos, maximo 576px)*/
+@media (max-width: 575.98px) {
+    .col-seleccion-pagProductos {
+        margin-top: 5%;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* dispositivos pequeños (Telefonos acostados, minimo 576px maximo 768)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+   
+}
+
+/*  Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+}
+
+/*  Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}
+/* PAGES */
+h1.entry-title {
+    margin: 30px 0;
+}
+
+.entry-content {
+    margin-bottom: 80px;
+}
+
+.entry-content h2,
+.entry-content h3,
+.entry-content h4 {
+    margin: 40px 0 20px;
+}
+
+
+/* Helpers */
+.mar-top-80 {
+    margin-top: 80px;
+}
+
+/* WordPress classes */
+.alignright {
+    float: right;
+    margin: 20px 0 20px 20px;
+}
+
+.alignleft {
+    float: right;
+    margin: 20px 20px 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* All pages */
+.page-content {
+    height: 100px;
+    transition: height 1s;
+}
+
+/* Archive pages */
+.archive h1 {
+    background-color: #ffde81;
+    margin: 0 -15px;
+    padding: 35px;
+    font-weight: normal;
+}
+
+.archive article {
+    margin-top: 20px;
+}
+
+.archive #main a {
+    color: #2a1000;
+}
+
+.archive #main a:hover,
+.archive #main a:active,
+.archive #main a:focus {
+    text-decoration: none;
+    color: #ffbc01;
+}
+
+.archive .entry-content {
+    margin-bottom: 20px;
+}
+
+
+/* Bootstrap */
+.page-item.active .page-link,
+.page-item.active .page-link:focus,
+.page-item.active .page-link:hover {
+    background-color: #2a1000;
+    color: #fff !important;
+    border-color: #2a1000;
+}
+
+/* Sidebars & Widgets */
+.widget {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.widget h2 {
+    margin-bottom: 10px;
+    color: white;
+    border-bottom: 5px solid #ffbc01;
+    padding: 5px 9px 6px;
+    background-color: #2a1000;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.widget ul {
+    padding: 0;
+    list-style: none;
+}
+
+.widget_recent_entries ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Posts */
+.post-thumbnail {
+    margin-top: 35px;
+}
+
+/*Estilos Responsivos*/
+/* dispositivos extra pequeños (parados Telefonos, maximo 576px)*/
+@media (max-width: 575.98px) {
+    .ocultar-celular {
+        display: none
+    }
+}
+
+/* dispositivos pequeños (Telefonos acostados, minimo 576px maximo 768)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .ocultar-celular {
+        display: none;
+
+    }
+}
+
+/*  Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .mostrar-solo-celuar {
+        display: none;
+    }
+}
+
+/*  Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .mostrar-solo-celular {
+        display: none;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .mostrar-solo-celular {
+        display: none;
+    }
+}
