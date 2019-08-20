@@ -6,7 +6,7 @@
         <img src="<?php bloginfo('template_url');?>/img/colcha-small.webp" class="img-small img-fluid center-img">
     </div>
 
-    <div class="container img-principal ocultar-celular">
+    <div class="container-fluid img-principal ocultar-celular">
 
         <?php
         $args = array( 
@@ -31,7 +31,7 @@
                     <?php
                     $n = 0;
                     while ($loop->have_posts()) : $loop->the_post(); ?>
-                        <div class="carousel-item <?php if ($n == 0) {
+                        <div class="carousel-item  <?php if ($n == 0) {
                                                         echo 'active';
                                                     } ?>">
 

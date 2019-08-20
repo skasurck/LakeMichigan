@@ -12,7 +12,7 @@ add_image_size( 'fastfood-featured-image', 2000, 1200, true );
 
 add_image_size( 'fastfood-thumbnail-avatar', 100, 100, true );
 
-add_image_size( 'lake-slider-image', 1200, 600, true );
+add_image_size( 'lake-slider-image', 1500, 800, true );
 
 // This theme uses wp_nav_menu() in two locations.
 register_nav_menus( array(

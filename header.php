@@ -50,7 +50,7 @@
                         'container' => 'div',
                         'container_class' => 'collapse navbar-collapse justify-content-end',
                         'container_id' => 'navbarNavDropdown',
-                        'items_wrap' => '<ul class="navbar-nav ">%3$s</ul>',
+                        'items_wrap' => '<ul class="navbar-nav justify-content-end ">%3$s</ul>',
                         'menu_class' => 'nav-item align-middle'
                     ));
                     ?>

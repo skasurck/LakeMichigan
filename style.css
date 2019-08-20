@@ -110,29 +110,29 @@ nav.navbar {
 
 .link-activo {
     color: #fff !important;
-    background-color: #24225E;
+    background-color: #3e5363;
     z-index: 1001;
 }
 
 .nav-link:hover {
     color: #fff !important;
-    background-color: #24225E;
+    background-color: #3e5363;
     border-radius: 8%;
     z-index: 1001;
 }
 
 .nav-link a:hover {
     color: #fff !important;
-    background-color: #24225E;
+    background-color: #3e5363;
     z-index: 1001;
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(36, 34, 94, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(62, 83, 99, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
 .navbar-toggler {
-    border-color: rgb(36, 34, 94) !important;
+    border-color: rgb(62, 83, 99) !important;
 }
 
 .navbar-nav {
@@ -187,6 +187,23 @@ nav.navbar {
 #slider-home {
     margin-bottom: 50px;
 }
+.carousel-item {
+    height: 85vh;
+    background:  #3e5363;
+  }
+  
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 8% !important;
+  }
+  
+  .carousel-item.active,
+  .carousel-item-left,
+  .carousel-item-right {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
 
 .carousel-caption {
     background-color: rgba(112, 112, 112, 0.75);
@@ -195,17 +212,17 @@ nav.navbar {
     top: 0;
     padding: 30px 45px;
     text-align: center;
-    width: 340px;
-    margin-top: 30%;
+    width: 540px;
+    margin-top: 22%;
 }
 
 .carousel-caption p {
-    font-size: 14px;
+    font-size: 22px;
     line-height: 18px;
 }
 
 .carousel-caption h2 {
-    font-size: 26px;
+    font-size: 36px;
     line-height: 30px;
 }
 
@@ -270,19 +287,19 @@ nav.navbar {
 
 .titulo-quien-princ {
     font-size: 27px;
-    color: #24225E;
+    color: #3e5363;
 }
 
 .titulo-quienes-principal {
     margin-top: 35px;
     margin-bottom: 35px;
     font-size: 28px;
-    color: #24225E;
+    color: #3e5363;
 }
 
 .texto-quienes-principal p {
     font-size: 15px;
-    color: #24225E;
+    color: #3e5363;
 }
 
 /*Productos pag principal*/
@@ -292,7 +309,7 @@ nav.navbar {
 
 .Titulo-productos {
     font-size: 32px;
-    color: #24225E;
+    color: #3e5363;
     text-align: center;
 }
 
@@ -308,7 +325,7 @@ nav.navbar {
 
 .titulo-cerificaciones-PagPrincipal {
     font-size: 53px;
-    color: #24225E;
+    color: #3e5363;;
     text-align: center
 }
 
@@ -319,18 +336,18 @@ nav.navbar {
 
 .sub-titulos-productos {
     font-size: 26px;
-    color: #24225E;
+    color: #3e5363;
     text-align: left;
 }
 
 .parrafo-productos-pagPrincipal {
-    color: #24225E;
+    color: #3e5363;
     font-size: 18px;
 }
 
 .parrafo-bold-productos-pagPrincipal {
     font-size: 18px;
-    color: #24225E;
+    color: #3e5363;
     font-weight: bold;
 }
 
@@ -338,7 +355,7 @@ nav.navbar {
 @media (max-width: 575.98px) {
     .titulo-cerificaciones-PagPrincipal {
         font-size: 30px;
-        color: #24225E;
+        color: #3e5363;
         text-align: center
     }
 }
@@ -364,7 +381,7 @@ nav.navbar {
 }
 
 .btn-Morado {
-    background-color: #24225E !important;
+    background-color: #3e5363 !important;
     color: #fff;
     box-shadow: 0px 4px 7px rgb(0, 0, 0);
     font-size: 1.25rem !important;
@@ -397,7 +414,7 @@ nav.navbar {
 
 .titulo-contacto-pagPrincipal {
     font-size: 28px;
-    color: #24225E;
+    color: #3e5363;
     text-align: center;
 }
 
@@ -408,24 +425,24 @@ nav.navbar {
 
 .label-contacto-pag-Principal {
     font-size: 25px;
-    color: #24225E;
+    color: #3e5363;
 }
 
 /*Footer*/
 .contenedor-footer {
     margin-top: 5%;
     border-top: 5px solid;
-    border-top-color: #24225E;
+    border-top-color: #3e5363;
 }
 
 footer h3 {
     margin-top: 2%;
     font-size: 18px;
-    color: #24225E;
+    color: #3e5363;
 }
 
 footer li {
-    color: #24225E;
+    color: #3e5363;
     font-size: 14px;
 }
 
@@ -444,7 +461,7 @@ footer li {
     font-size: 46px;
     font-weight: bold;
     text-align: center;
-    color: #24225E
+    color: #3e5363;
 }
 .texto-Blanco-pagNosotros {
     font-size: 20px;
@@ -455,7 +472,7 @@ footer li {
 .texto-morado-pagNosotros {
     font-size: 20px;
     text-align: center;
-    color: #24225E;
+    color: #3e5363;
     font-weight: normal;
 }
 .seccion-1-pagNosotros {
@@ -475,7 +492,7 @@ footer li {
 .seccion-2-pagNosotros {
     width: 100%;
     height: auto;
-    background: #24225E;
+    background:#3e5363;
     margin: 3% 0 3% 0;
 }
 .seccion-2-pagNosotros .row{
@@ -485,7 +502,7 @@ footer li {
 .seccion-4-pagNosotros{
     width: 100%;
     height: auto;
-    background: #24225E;
+    background: #3e5363;
     margin: 3% 0 3% 0;
 }
 .seccion-4-pagNosotros .row{
@@ -498,7 +515,7 @@ footer li {
 }
 
 .seccion-video-pagNosotros {
-    border-top: 5px solid #24225E;
+    border-top: 5px solid #3e5363;
 }
 
 .contenedor-video-pagNosotros {
@@ -519,7 +536,7 @@ footer li {
     .texto-morado-pagNosotros {
         font-size: 15px;
         text-align: center;
-        color: #24225E;
+        color: #3e5363;
         font-weight: normal;
     }
     .titulo-blanco-pagNosotros { 
@@ -574,39 +591,39 @@ footer li {
 }
 
 .text-col-seleccion-Productos p {
-    color: #24225E;
+    color: #3e5363;
     font-size: 18px;
 }
 
 .titulo-seleccion-pagProductos {
     font-size: 22px;
     font-weight: bold;
-    color: #24225E;
+    color: #3e5363;
 }
 
 .selectpres-pag-productos a {
-    color: #24225E;
+    color: #3e5363;
     font-size: 18px;
 }
 
 .active-link {
-    background: #24225E;
+    background: #3e5363;
     color: #fff !important;
 }
 
 .active-link:hover {
-    background: #24225E;
+    background: #3e5363;
     color: #fff !important;
 }
 
 .card-title {
     font-size: 22px;
-    color: #24225E;
+    color: #3e5363;
 }
 
 .card-text {
     font-size: 16px;
-    color: #24225E;
+    color: #3e5363;
 }
 /* dispositivos extra pequeños (parados Telefonos, maximo 576px)*/
 @media (max-width: 575.98px) {
